@@ -1,0 +1,81 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  background-color: #fff; /* White container background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+}
+
+.title {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #4CAF50; /* Green header background */
+  color: #fff; /* White text color */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.title h1 {
+  margin: 0;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-box input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.sort-buttons {
+  margin-bottom: 20px;
+}
+
+.sort-buttons button {
+  margin-right: 10px;
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sort-buttons button:hover {
+  background-color: #45a049;
+}
+
+#customers {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#customers th, #customers td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+#customers th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+#customers th:hover {
+  background-color: #ddd;
+}
